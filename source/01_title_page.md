@@ -16,42 +16,44 @@ ammended for UNSW by Mathew Lipson, 2018
         \vspace*{1.5cm}
         
         \huge
-        This is the title of the thesis
+        AutoML Neural Architecture Search for time-series classification 
         
         \vspace{2.5cm}
         
         \Large
-        Firstname Surname
+        Dawid Golebiewski, B.Sc
 
         \vspace{4.5cm}
 
 
         \normalsize
         A thesis in fulfilment of the requirements for \\
-        the degree of Doctor of Philosophy
+        the degree of Master of Science
         
         \vfill
         
-        %\normalsize
-        %Supervised by:\\
-        %Professor Louis Fage\\
+        \normalsize
+        Supervised by:\\
+        Merten Stender, M.Sc\\
         %Captain J. Y. Cousteau
 
         \vspace{0.2cm}
 
         % Uncomment the following line
         % to add a centered university logo
+        TBD
         \includegraphics[width=0.4\textwidth]{UNSWresources/UNSWcrest.pdf}
         
         \normalsize
-        Climate Change Research Centre\\
-        School of Biological, Earth and Environmental Sciences\\
-        Faculty of Science, UNSW Sydney
+        Dynamics Group (M-14)\\
+        Hamburg University of Technology\\
+        Schloßmühlendamm 30\\
+        21073 Hamburg\\
 
         \vspace{1.0cm}
 
         \Large
-        January, 2018
+        \today
 
     \end{center}
 \end{titlepage}

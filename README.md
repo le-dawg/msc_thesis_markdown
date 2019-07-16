@@ -1,5 +1,11 @@
-# UNSW CCRC Markdown Thesis
-This work is based on [Tom Pollard's](https://github.com/tompollard), updated to conform with UNSW requirements.
+# TUHH Markdown Thesis
+This work is based on [Mat Lipson's](https://github.com/matlipson/phd_thesis_markdown) which in turn bases on [Tom Pollard's](https://github.com/tompollard). This version is updated to conform with TUHH DYN requirements and is a **work in progress**.
+
+### If you want to use this with Sublime Text 3 on Windows 10+, only minimal adjustments to paths should be necessary.
+Be advised that you will need bash on windows (via git-bash or the WIndows 10 Creator update) to run this successfully.
+
+## Use case
+
 Write in simple text like this:
 
 ![markdown example](https://github.com/ArdenB/CCRCexamples/raw/master/markdown_thesis/source/figures/markdown.png)
@@ -10,8 +16,6 @@ Type `make pdf` or `make html` or `make docx`. End up with latex (or html, or do
 | ------------- | ------------- | ------------- |
 | ![latex example](https://github.com/ArdenB/CCRCexamples/raw/master/markdown_thesis/source/figures/latex.png)  | ![html example](https://github.com/ArdenB/CCRCexamples/raw/master/markdown_thesis/source/figures/html.png)  |  ![docx example](https://github.com/ArdenB/CCRCexamples/raw/master/markdown_thesis/source/figures/docx.png)  |
 
-  
-
 If you prefer to work in Rmarkdown, see James Goldie's UNSW port: https://github.com/rensa/unswthesisdown
 
 The following instructions are from the original repository: https://github.com/tompollard/phd_thesis_markdown
@@ -20,11 +24,11 @@ The following instructions are from the original repository: https://github.com/
 
 [![DOI](https://zenodo.org/badge/doi/10.5281/zenodo.58490.svg)](http://dx.doi.org/10.5281/zenodo.58490)
 
-This repository provides a framework for writing a PhD thesis in Markdown. I used the template for my PhD submission to University College London (UCL), but it should be straightforward to adapt suit other universities too.
+This repository provides a framework for writing a PhD thesis in Markdown. I built a template for my M.Sc submission to Technical University Hamburg (UCL), but it should be straightforward to adapt suit other universities too.
 
 ## Citing the template
 
-If you have used this template in your work, please cite the following publication:
+If you have used this template in your work, please cite the following root publication:
 
 > Tom Pollard et al. (2016). Template for writing a PhD thesis in Markdown. Zenodo. http://dx.doi.org/10.5281/zenodo.58490
 
@@ -32,7 +36,7 @@ If you have used this template in your work, please cite the following publicati
 
 Markdown is a super-friendly plain text format that can be easily converted to a bunch of other formats like PDF, Word and LaTeX. You'll enjoy working in Markdown because:
 - it is a clean, plain-text format...
-- ...but you can use LaTeX when you need it (for example, in laying out mathematical formula).
+- ...but you can use LaTeX when you need it (for example, in laying out mathematical formulae).
 - it doesn't suffer from the freezes and crashes that some of us experience when working with large, image-heavy Word documents.
 - it automatically handles the table of contents, bibliography etc with Pandoc.
 - comments, drafts of text, etc can be added to the document by wrapping them in &lt;!--  --&gt;
@@ -66,7 +70,7 @@ There are some minor annoyances:
     - [Pandoc](http://johnmacfarlane.net/pandoc), for converting the Markdown to the output format of your choice.  You may also need to install [Pandoc cite-proc](http://pandoc.org/demo/example19/Extension-citations.html) to create the bibliography.
     - Install @martisak's shortcaption module for Pandoc, with `pip install pandoc-shortcaption`
     - Git, for version control.
-2. [Fork the repository](https://github.com/tompollard/phd_thesis_markdown/fork) on Github  
+2. [Fork and clone this repository](https://github.com/tompollard/phd_thesis_markdown/fork) on Github  
 3. Clone the repository onto your local computer (or [download the Zip file](https://github.com/tompollard/phd_thesis_markdown/archive/master.zip)).  
 4. Navigate to the directory that contains the Makefile and type "make pdf" (or "make html") at the command line to update the PDF (or HTML) in the output directory.  
 **In case of an error** (e.g. `make: *** [pdf] Error 43`) run the following commands:  

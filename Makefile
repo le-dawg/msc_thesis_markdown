@@ -1,6 +1,6 @@
-STDNO="z0000000"
-LAST="Last"
-FIRST="First"
+STDNO="V0"
+LAST="G"
+FIRST="Daw"
 
 PY=python
 PANDOC=pandoc
@@ -30,7 +30,7 @@ help:
 
 pdf:
 	pandoc "$(INPUTDIR)"/*.md \
-	-o "$(OUTPUTDIR)/$(STDNO)-$(LAST)-$(FIRST)-Thesis.pdf" \
+	-o "$(OUTPUTDIR)/$(STDNO)-$(FIRST)$(LAST)-Thesis.pdf" \
 	-H "$(STYLEDIR)/preamble.tex" \
 	--template="$(STYLEDIR)/template.tex" \
 	--bibliography="$(BIBFILE)" 2>pandoc.log \
