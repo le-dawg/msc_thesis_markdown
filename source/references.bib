@@ -14,6 +14,19 @@
 }
 
 
+@article{Bagnall.2015,
+ author = {Bagnall, Anthony and Lines, Jason and Hills, Jon and Bostrom, Aaron},
+ year = {2015},
+ title = {Time-Series Classification with COTE: The Collective of Transformation-Based Ensembles},
+ pages = {2522--2535},
+ volume = {27},
+ number = {9},
+ issn = {1041-4347},
+ journal = {IEEE Transactions on Knowledge and Data Engineering},
+ doi = {\url{10.1109/TKDE.2015.2416723}}
+}
+
+
 @misc{Cortes.752016,
  abstract = {We present new algorithms for adaptively learning artificial neural networks. Our algorithms (AdaNet) adaptively learn both the structure of the network and its weights. They are based on a solid theoretical analysis, including data-dependent generalization guarantees that we prove and discuss in detail. We report the results of large-scale experiments with one of our algorithms on several binary classification tasks extracted from the CIFAR-10 dataset. The results demonstrate that our algorithm can automatically learn network structures with very competitive performance accuracies when compared with those achieved for neural networks found by standard approaches.},
  author = {Cortes, Corinna and Gonzalvo, Xavi and Kuznetsov, Vitaly and Mohri, Mehryar and Yang, Scott},
@@ -24,13 +37,54 @@
 }
 
 
+@misc{Cui.3222016,
+ abstract = {Time series classification (TSC), the problem of predicting class labels of time series, has been around for decades within the community of data mining and machine learning, and found many important applications such as biomedical engineering and clinical prediction. However, it still remains challenging and falls short of classification accuracy and efficiency. Traditional approaches typically involve extracting discriminative features from the original time series using dynamic time warping (DTW) or shapelet transformation, based on which an off-the-shelf classifier can be applied. These methods are ad-hoc and separate the feature extraction part with the classification part, which limits their accuracy performance. Plus, most existing methods fail to take into account the fact that time series often have features at different time scales. To address these problems, we propose a novel end-to-end neural network model, Multi-Scale Convolutional Neural Networks (MCNN), which incorporates feature extraction and classification in a single framework. Leveraging a novel multi-branch layer and learnable convolutional layers, MCNN automatically extracts features at different scales and frequencies, leading to superior feature representation. MCNN is also computationally efficient, as it naturally leverages GPU computing. We conduct comprehensive empirical evaluation with various existing methods on a large number of benchmark datasets, and show that MCNN advances the state-of-the-art by achieving superior accuracy performance than other leading methods.},
+ author = {Cui, Zhicheng and Chen, Wenlin and Chen, Yixin},
+ date = {3/22/2016},
+ title = {Multi-Scale Convolutional Neural Networks for Time Series Classification},
+ url = {\url{http://arxiv.org/pdf/1603.06995v4}},
+ keywords = {Computer Science - Computer Vision and Pattern Recognition}
+}
+
+
 @phdthesis{DanielSchoepflin.2019,
  author = {{Daniel Schoepflin}, B.Sc},
  year = {2019},
+ title = {Development of a Virtual Twin to Predict Brake System Vibrations Using Recurrent Neural Networks},
  address = {Hamburg},
  publisher = {DYN},
  school = {TUHH},
  type = {M.Sc}
+}
+
+
+@article{Karim.2018,
+ abstract = {Fully convolutional neural networks (FCN) have been shown to achieve state-of-the-art performance on the task of classifying time series sequences. We propose the augmentation of fully convolutional networks with long short term memory recurrent neural network (LSTM RNN) sub-modules for time series classification. Our proposed models significantly enhance the performance of fully convolutional networks with a nominal increase in model size and require minimal preprocessing of the dataset. The proposed Long Short Term Memory Fully Convolutional Network (LSTM-FCN) achieves state-of-the-art performance compared to others. We also explore the usage of attention mechanism to improve time series classification with the Attention Long Short Term Memory Fully Convolutional Network (ALSTM-FCN). Utilization of the attention mechanism allows one to visualize the decision process of the LSTM cell. Furthermore, we propose fine-tuning as a method to enhance the performance of trained models. An overall analysis of the performance of our model is provided and compared to other techniques.},
+ author = {Karim, Fazle and Majumdar, Somshubra and Darabi, Houshang and Chen, Shun},
+ year = {2018},
+ title = {LSTM Fully Convolutional Networks for Time Series Classification},
+ url = {\url{http://arxiv.org/pdf/1709.05206v1}},
+ keywords = {Computer Science - Learning;Statistics - Machine Learning},
+ pages = {1662--1669},
+ volume = {6},
+ issn = {2169-3536},
+ journal = {IEEE Access},
+ doi = {\url{10.1109/ACCESS.2017.2779939}}
+}
+
+
+@article{Karim.2019,
+ abstract = {Over the past decade, multivariate time series classification has received great attention. We propose transforming the existing univariate time series classification models, the Long Short Term Memory Fully Convolutional Network (LSTM-FCN) and Attention LSTM-FCN (ALSTM-FCN), into a multivariate time series classification model by augmenting the fully convolutional block with a squeeze-and-excitation block to further improve accuracy. Our proposed models outperform most state-of-the-art models while requiring minimum preprocessing. The proposed models work efficiently on various complex multivariate time series classification tasks such as activity recognition or action recognition. Furthermore, the proposed models are highly efficient at test time and small enough to deploy on memory constrained systems.},
+ author = {Karim, Fazle and Majumdar, Somshubra and Darabi, Houshang and Harford, Samuel},
+ year = {2019},
+ title = {Multivariate LSTM-FCNs for Time Series Classification},
+ url = {\url{http://arxiv.org/pdf/1801.04503v2}},
+ keywords = {Computer Science - Learning;Statistics - Machine Learning},
+ pages = {237--245},
+ volume = {116},
+ issn = {08936080},
+ journal = {Neural Networks},
+ doi = {\url{10.1016/j.neunet.2019.04.014}}
 }
 
 
@@ -55,6 +109,24 @@
  title = {Template for writing a PhD thesis in Markdown},
  keywords = {Markdown;PhD;Template;Thesis},
  doi = {\url{10.5281/zenodo.58490}}
+}
+
+
+@misc{UCRArchive2018,
+ author = {{Dau, Hoang Anh and Keogh, Eamonn and Kamgar, Kaveh and Yeh, Chin-Chia Michael and Zhu, Yan}},
+ year = {2018},
+ title = {The UCR Time Series Classification Archive},
+ url = {\url{https://www.cs.ucr.edu/~eamonn/time_series_data_2018}}
+}
+
+
+@misc{Wang.11202016,
+ abstract = {We propose a simple but strong baseline for time series classification from scratch with deep neural networks. Our proposed baseline models are pure end-to-end without any heavy preprocessing on the raw data or feature crafting. The proposed Fully Convolutional Network (FCN) achieves premium performance to other state-of-the-art approaches and our exploration of the very deep neural networks with the ResNet structure is also competitive. The global average pooling in our convolutional model enables the exploitation of the Class Activation Map (CAM) to find out the contributing region in the raw data for the specific labels. Our models provides a simple choice for the real world application and a good starting point for the future research. An overall analysis is provided to discuss the generalization capability of our models, learned features, network structures and the classification semantics.},
+ author = {Wang, Zhiguang and Yan, Weizhong and Oates, Tim},
+ date = {11/20/2016},
+ title = {Time Series Classification from Scratch with Deep Neural Networks: A  Strong Baseline},
+ url = {\url{http://arxiv.org/pdf/1611.06455v4}},
+ keywords = {Computer Science - Learning;Computer Science - Neural and Evolutionary Computing;Statistics - Machine Learning}
 }
 
 
