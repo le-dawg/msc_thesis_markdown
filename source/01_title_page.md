@@ -13,10 +13,10 @@ ammended for UNSW by Mathew Lipson, 2018
 \begin{titlepage}
     \begin{center}
 
-        \vspace*{1.5cm}
+        \vspace{1.5cm}
         
         \huge
-        AutoML Neural Architecture Search for time-series classification 
+        AutoML Neural Architecture Search for time-series classification of \textit{dynamic systems}
         
         \vspace{2.5cm}
         
@@ -34,8 +34,8 @@ ammended for UNSW by Mathew Lipson, 2018
         
         \normalsize
         Supervised by:\\
-        Merten Stender, M.Sc\\
-        %Captain J. Y. Cousteau
+        Primary Supervisor: Merten Stender, M.Sc\\
+        Secondary supervisor: ABC DEF, Dr.\\
 
         \vspace{0.2cm}
 
