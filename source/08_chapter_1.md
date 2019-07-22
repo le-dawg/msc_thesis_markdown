@@ -1,6 +1,6 @@
-# Introduction {.unnumbered}
+# Introduction
 
-<!-- This is the abstract -->
+## Background
 
 Conventional automobile disk brakes are designed to decelerate vehicles by creating friction at the interface between the rotating disc and the braking pad. The geometries, forces and torques at play in this interface appear deceptively simple, yet the vibrations introduced into the system are not easily predicted or modeled whereas in practice oscillations are often observed, or rather heard, in the form of creep groan, squealing and similar. 
 
@@ -26,5 +26,43 @@ For the AdaNet algorithm to perform favorably, a number of special estimators an
 
 The selection of a resulting network structure to be benchmarked to evaluate the resulting network depends on Verifying the generalizability of the resulting network architecture is proposed to be conducted via cross-training between datasets from different brake systems [Schoepflin].
 
-\pagenumbering{roman}
-\setcounter{page}{1}
+## The style of the citation is determined by the ref_format.csl file. For example, cite like this 
+
+<!-- 
+To include a reference, add the citation key shown in the references.bib file.
+-->
+
+## Maths
+
+Numbered equations are assisted by installing [pandoc-crossref](https://github.com/lierdakil/pandoc-crossref):
+
+$$ \rho c \frac{\partial T}{\partial t} =  \frac{\partial q} {\partial x} $$ {#eq:yourlabel}
+
+Now you can reference your equations (@eq:yourlabel) inline. If using pandoc-crossref, add the following to each relevant section of the makefile. 
+
+```--filter pandoc-crossref``` 
+
+Non numbered equations:
+$$ \rho c \frac{\partial T}{\partial t} =  \frac{\partial q} {\partial x} $$
+
+## The middle bit
+
+This is the middle bit. Phasellus quis ex in ipsum pellentesque lobortis tincidunt sed massa. Nullam euismod sem quis dictum condimentum. Suspendisse risus metus, elementum eu congue quis, viverra ac metus. Donec non lectus at lectus euismod laoreet pharetra semper dui. Donec sed eleifend erat, vel ultrices nibh. Nam scelerisque turpis ac nunc mollis, et rutrum nisl luctus.
+
+Cras eleifend velit diam, eu viverra mi volutpat ut. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec finibus leo nec dui imperdiet, tincidunt ornare orci venenatis. Maecenas placerat efficitur est, eu blandit magna hendrerit eu.
+
+### Subsection of the middle bit
+
+This is a subsection of the middle bit. Quisque sit amet tempus arcu, ac suscipit ante. Cras massa elit, pellentesque eget nisl ut, malesuada rutrum risus. Nunc in venenatis mi. Curabitur sit amet suscipit eros, non tincidunt nibh. Phasellus lorem lectus, iaculis non luctus eget, tempus non risus. Suspendisse ut felis mi.
+
+## Summary of chapters
+
+<!-- 
+For italic, add one * on either side of the text
+For bold, add two * on either side of the text
+For bold and italic, add _** on either side of the text
+-->
+
+This is a brief outline of what went into each chapter. **Chapter 1** gives a background on duis tempus justo quis arcu consectetur sollicitudin.  **Chapter 2** discusses morbi sollicitudin gravida tellus in maximus.  **Chapter 3** discusses vestibulum eleifend turpis id turpis sollicitudin aliquet.  **Chapter 4** shows how phasellus gravida non ex id aliquet. Proin faucibus nibh sit amet augue blandit varius.
+
+
