@@ -2,7 +2,7 @@
 
 ## Background
 
-This is the introduction. To include a citation to the text, just add the citation key shown in the references.bib file. The style of the citation is determined by the ref_format.csl file. For example, cite like this [@Cousteau1963].
+This is the introduction. To include a citation to the text, just add the citation key shown in the references.bib file. The style of the citation is determined by the ref_format.csl file. For example, cite like this 
 
 <!-- 
 To include a reference, add the citation key shown in the references.bib file.

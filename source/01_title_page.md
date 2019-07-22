@@ -42,7 +42,7 @@ ammended for UNSW by Mathew Lipson, 2018
         % Uncomment the following line
         % to add a centered university logo
         TBD
-        \includegraphics[width=0.4\textwidth]{UNSWresources/UNSWcrest.pdf}
+        \includegraphics[width=0.4\textwidth]{TUHHresources/DYN_logo_blau.pdf}
         
         \normalsize
         Dynamics Group (M-14)\\
